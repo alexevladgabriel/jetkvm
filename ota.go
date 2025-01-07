@@ -43,7 +43,7 @@ type UpdateStatus struct {
 
 const UpdateMetadataUrl = "https://api.jetkvm.com/releases"
 
-var builtAppVersion = "0.1.0+dev"
+var builtAppVersion = "0.3.5"
 
 func GetLocalVersion() (systemVersion *semver.Version, appVersion *semver.Version, err error) {
 	appVersion, err = semver.NewVersion(builtAppVersion)
